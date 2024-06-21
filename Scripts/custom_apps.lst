@@ -20,4 +20,5 @@ spotify                                                # proprietary music strea
 spicetify-cli                                          # cli to customize spotify client
 
 # --------------------------------------------------- // Apps
+telegram-desktop
 # neovim                                               # vim based text editor
