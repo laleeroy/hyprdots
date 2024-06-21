@@ -47,7 +47,7 @@ To install, execute the following commands:
 
 ```shell
 pacman -Sy git
-git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyDE
+git clone --depth 1 https://github.com/laleeroy/hyprdots ~/HyDE
 cd ~/HyDE/Scripts
 ./install.sh
 ```
@@ -181,10 +181,11 @@ For more information, visit [prasanthrangan/hyde-themes](https://github.com/pras
 | <kbd>Super</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd> | Toggle pin on focused window |
 | <kbd>Super</kbd> + <kbd>Backspace</kbd> | Launch logout menu |
 | <kbd>Ctrl</kbd> + <kbd>Esc</kbd> | Toggle waybar |
-| <kbd>Super</kbd> + <kbd>T</kbd> | Launch terminal emulator (kitty) |
-| <kbd>Super</kbd> + <kbd>E</kbd> | Launch file manager (dolphin) |
+| <kbd>Super</kbd> + <kbd>Enter</kbd> | Launch terminal emulator (kitty) |
+| <kbd>Super</kbd> + <kbd>F</kbd> | Launch file manager (dolphin) |
 | <kbd>Super</kbd> + <kbd>C</kbd> | Launch text editor (vscode) |
-| <kbd>Super</kbd> + <kbd>F</kbd> | Launch web browser (firefox) |
+| <kbd>Super</kbd> + <kbd>B</kbd> | Launch web browser (firefox) |
+| <kbd>Super</kbd> + <kbd>T</kbd> | Launch telegram |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd> | Launch system monitor (htop/btop or fallback to top) |
 | <kbd>Super</kbd> + <kbd>A</kbd> | Launch application launcher (rofi) |
 | <kbd>Super</kbd> + <kbd>Tab</kbd> | Launch window switcher (rofi) |
