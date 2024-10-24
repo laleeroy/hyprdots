@@ -5,18 +5,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=(
-	git
-	aliases
-	z
-	extract
-	zsh-syntax-highlighting
-	zsh-autosuggestions
-	history-substring-search
-	man
-	tmux
-	)
-
+plugins=()
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
@@ -69,10 +58,6 @@ function in {
 }
 
 # Helpful aliases
-alias v="vim"
-alias h="htop"
-alias ws="watch sensors"
-alias xct='exit'
 alias  c='clear' # clear terminal
 alias  l='eza -lh  --icons=auto' # long list
 alias ls='eza -1   --icons=auto' # short list
